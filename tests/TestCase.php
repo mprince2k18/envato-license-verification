@@ -3,8 +3,8 @@
 namespace Mprince2k18\EnvatoLicenseVerification\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Mprince2k18\EnvatoLicenseVerification\EnvatoLicenseVerificationServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
