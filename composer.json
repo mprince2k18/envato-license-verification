@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mprince2k18/envato-license-verification",
+    "description": "This is my package envato-license-verification",
     "keywords": [
-        ":vendor_name",
+        "mprince2k18",
         "laravel",
-        ":package_slug"
+        "envato-license-verification"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mprince2k18/envato-license-verification",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Mohammad Prince",
+            "email": "mprince2k16@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Mprince2k18\\EnvatoLicenseVerification\\": "src",
+            "Mprince2k18\\EnvatoLicenseVerification\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Mprince2k18\\EnvatoLicenseVerification\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,15 +51,19 @@
         "format": "vendor/bin/pint"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mprince2k18\\EnvatoLicenseVerification\\EnvatoLicenseVerificationServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "EnvatoLicenseVerification": "Mprince2k18\\EnvatoLicenseVerification\\Facades\\EnvatoLicenseVerification"
             }
         }
     },

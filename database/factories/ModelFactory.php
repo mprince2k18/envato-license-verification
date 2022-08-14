@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace Mprince2k18\EnvatoLicenseVerification\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

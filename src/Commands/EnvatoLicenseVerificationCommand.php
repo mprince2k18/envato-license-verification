@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Mprince2k18\EnvatoLicenseVerification\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class EnvatoLicenseVerificationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'envato-license-verification';
 
     public $description = 'My command';
 
