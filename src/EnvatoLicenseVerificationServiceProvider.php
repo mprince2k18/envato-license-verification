@@ -18,8 +18,8 @@ class EnvatoLicenseVerificationServiceProvider extends PackageServiceProvider
         $package
             ->name('envato-license-verification')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_envato-license-verification_table')
+            // ->hasViews() // uncomment if you want to use views
+            // ->hasMigration('create_envato-license-verification_table') // uncomment if you need a migration
             ->hasCommand(EnvatoLicenseVerificationCommand::class);
     }
 }
