@@ -2,9 +2,9 @@
 
 namespace Mprince2k18\EnvatoLicenseVerification;
 
+use Mprince2k18\EnvatoLicenseVerification\Commands\EnvatoLicenseVerificationCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mprince2k18\EnvatoLicenseVerification\Commands\EnvatoLicenseVerificationCommand;
 
 class EnvatoLicenseVerificationServiceProvider extends PackageServiceProvider
 {
