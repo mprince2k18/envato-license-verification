@@ -21,6 +21,11 @@ class EnvatoLicenseVerificationServiceProvider extends PackageServiceProvider
             // ->hasViews() // uncomment if you want to use views
             // ->hasMigration('create_envato-license-verification_table') // uncomment if you need a migration
             ->hasRoute('envato')
+            ->addController([
+                'namespace' => 'Mprince2k18\EnvatoLicenseVerification\Http\Controllers',
+                'class' => 'EnvatoLicenseVerificationController',
+                'path' => 'app/Http/Controllers/EnvatoLicenseVerificationController.php',
+            ])
             ->hasCommand(EnvatoLicenseVerificationCommand::class);
     }
 }
