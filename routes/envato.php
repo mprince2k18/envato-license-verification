@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Mprince2k18\EnvatoLicenseVerification\Http\Controllers\EnvatoLicenseVerificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +13,6 @@ use Mprince2k18\EnvatoLicenseVerification\Http\Controllers\EnvatoLicenseVerifica
 |
 */
 
-Route::get('/purchase-code-validation', [EnvatoLicenseVerificationController::class, 'index'])->name('mprince2k18.purchase-code-validation');
+Route::get('/purchase-code-validation', function () {
+    return view('index');
+});
