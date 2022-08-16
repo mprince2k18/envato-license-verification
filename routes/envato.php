@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/purchase-code-validation', function () {
-    return view('envato-license-verification::index');
+    return view('index');
 });
