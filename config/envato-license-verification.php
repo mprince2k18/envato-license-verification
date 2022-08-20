@@ -7,4 +7,6 @@ return [
 
     'url' => 'https://api.envato.com/v3/market/author/sale/', // replace the API key here.
 
+    'api_url' =>  'http://127.0.0.1:8000/' // localhost
+
 ];

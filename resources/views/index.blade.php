@@ -40,33 +40,15 @@
         <div class="col-md-4">
             <div class="window glass violet">
                 <div class="title-bar">
-                    <div class="title-bar-text">Enter Your Information & Verify The Application</div>
+                    <div class="title-bar-text">Enter Purchase Code Given By SoftTech-IT</div>
                     <div class="title-bar-controls">
                         <button aria-label="Close"></button>
                     </div>
                 </div>
                 <div class="window-body">
-                    
-                    <div class="field-row-stacked">
-                        <label for="text22">Enter Your Envato Name</label>
-                        <input id="text22" type="text">
-                        <div class="title-bar-text invalid">Please enter your name</div>
-                    </div>
-                    
-                    <div class="field-row-stacked">
-                        <label for="text23">Enter Your Envato Email Address</label>
-                        <input id="text23" type="text">
-                        <div class="title-bar-text invalid">Please enter email address</div>
-                    </div>
 
                     <div class="field-row-stacked">
-                        <label for="text23">Enter Your Envato Username</label>
-                        <input id="text23" type="text">
-                        <div class="title-bar-text invalid">Please enter envato username</div>
-                    </div>
-
-                    <div class="field-row-stacked">
-                        <label for="text23">Enter Your Application Purchase Code</label>
+                        <label for="text23">Enter Purchase Code Given By SoftTech-IT</label>
                         <input id="text23" type="text">
                         <div class="title-bar-text invalid">Please enter application purchase code</div>
                     </div>
